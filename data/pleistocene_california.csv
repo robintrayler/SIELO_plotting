@@ -1,0 +1,117 @@
+﻿museum ,catalog.no,locality,tooth,Genus_species,d13C_PDB,d18O_SMOW,diet,age,latitude,longitude
+UCMP,33111,McKittrick,C,Arctodus simus,-10.9,27,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,40086,Irvington,Lc,Arctodus simus,-14.5,22.7,carnivore,Irvingtonian,37.525236,-121.945545
+UCMP,A2604,Fairmead,LC,Arctodus simus,-11.9,25,carnivore,Irvingtonian,37.061488,-120.194108
+UCMP,212876,McKittrick,lm3,Bison,-4.9,23.9,herbivore,Rancholabrean,35.296704,-119.626683
+MCPC,A629,Fairmead,lm1,Camelops,-8.5,26.6,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,81178,Irvington,Lm2,Camelops,-12.07,25.6,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,197886,Fairmead,lm2,Camelops,-10.9,27.4,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,197888,Fairmead,lm2,Camelops,-9.4,27.9,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,212894,McKittrick,lm2,Camelops,-0.7,30.2,herbivore,Rancholabrean,35.296704,-119.626683
+UCMP,212893 (mean),McKittrick,lm2,Camelops,-4.8,30.8,herbivore,Rancholabrean,35.296704,-119.626683
+MCPC,A1832,Fairmead,lM2,Camelops,-9.5,25.5,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A98,Fairmead,lM2,Camelops,-9.8,25.9,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A989,Fairmead,lm2,Camelops,-9.6,27.9,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A993,Fairmead,lm2,Camelops,-8.2,27.8,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,38456,Irvington,Lm3,Camelops,-9.86,27.4,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,38751,Irvington,Lm3,Camelops,-11.8,26.2,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,212867,Fairmead,lm3,Camelops,-8.1,30.6,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,212895,McKittrick,lm3,Camelops,-2.9,26.5,herbivore,Rancholabrean,35.296704,-119.626683
+UCMP,212896,McKittrick,lm3,Camelops,-1.8,27.1,herbivore,Rancholabrean,35.296704,-119.626683
+UCMP,212897,McKittrick,lM3,Camelops,-2.6,26.2,herbivore,Rancholabrean,35.296704,-119.626683
+MCPC,A1307,Fairmead,lm3,Camelops,-9.2,25.5,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A523,Fairmead,lP4,Camelops,-8.8,27.2,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A978,Fairmead,P4,Camelops,-11.7,29.4,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,212866,Fairmead,rm2,Camelops,-8.9,28.8,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A1937,Fairmead,rM2,Camelops,-8.4,27.7,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A282 (mean),Fairmead,rM2,Camelops,-8.9,24.8,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,38454,Irvington,Rm3,Camelops,-11.15,25.9,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,38460,Irvington,Rm3,Camelops,-11.66,26.2,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,140400,Fairmead,rm3,Camelops,-10.1,27.2,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,212868,Fairmead,rm3,Camelops,-10.2,27.9,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,38749,Irvington,Lm1,Canis dirus,-14.35,24.7,carnivore,Irvingtonian,37.525236,-121.945545
+UCMP,156047,Fairmead,lm1,Canis dirus,-13.1,28.9,carnivore,Irvingtonian,37.061488,-120.194108
+MCPC,A2605,Fairmead,lp4,Canis dirus,-11.1,28.5,carnivore,Irvingtonian,37.061488,-120.194108
+MCPC,A948,Fairmead,lP4,Canis dirus,-13,31.9,carnivore,Irvingtonian,37.061488,-120.194108
+MCPC,A576,Fairmead,pm,Canis dirus,-12.7,29.1,carnivore,Irvingtonian,37.061488,-120.194108
+MCPC,A2202,Fairmead,rC,Canis dirus,-12.5,26.8,carnivore,Irvingtonian,37.061488,-120.194108
+UCMP,41779,Irvington,Rm1,Canis dirus,-12,25.3,carnivore,Irvingtonian,37.525236,-121.945545
+MCPC,A2209,Fairmead,rm1,Canis dirus,-11.1,27.4,carnivore,Irvingtonian,37.061488,-120.194108
+UCMP,140265,Fairmead,rm2,Canis dirus,-12.5,34.4,carnivore,Irvingtonian,37.061488,-120.194108
+UCMP,156048,Fairmead,rm2,Canis dirus,-10.8,27.6,carnivore,Irvingtonian,37.061488,-120.194108
+UCMP,212885,McKittrick,rm2,Canis dirus,-2.2,24.2,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,212886,McKittrick,rm2,Canis dirus,-7.4,27.3,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,212887,McKittrick,rm2,Canis dirus,-1.7,30.3,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,212888,McKittrick,rm2,Canis dirus,-5.2,28.6,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,212889,McKittrick,rm2,Canis dirus,-5.6,26.8,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,212890,McKittrick,rm2,Canis dirus,-3,26.5,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,212891,McKittrick,rm2,Canis dirus,-11.8,27.1,carnivore,Rancholabrean,35.296704,-119.626683
+MCPC,A1762,Fairmead,C,Canis latrans,-13.1,28.9,carnivore,Irvingtonian,37.061488,-120.194108
+MCPC,A7,Fairmead,lc,Canis latrans,-12.4,24.9,carnivore,Irvingtonian,37.061488,-120.194108
+MCPC,A19,Fairmead,lM1,Canis latrans,-12.8,25.4,carnivore,Irvingtonian,37.061488,-120.194108
+MCPC,A2606,Fairmead,lm2,Canis latrans,-12.3,31.6,carnivore,Irvingtonian,37.061488,-120.194108
+UCMP,140413,Fairmead,m2,Canis latrans,-10.7,30.6,carnivore,Irvingtonian,37.061488,-120.194108
+UCMP,212877,McKittrick,rm2,Canis latrans,-5.5,28.9,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,212878,McKittrick,rm2,Canis latrans,-5.2,31.1,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,212879,McKittrick,rm2,Canis latrans,-4.7,33.6,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,212881,McKittrick,rm2,Canis latrans,-1.6,31.7,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,212882,McKittrick,rm2,Canis latrans,-5,33.7,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,212883,McKittrick,rm2,Canis latrans,-3,31.7,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,212884,McKittrick,rm2,Canis latrans,-7.2,28,carnivore,Rancholabrean,35.296704,-119.626683
+MCPC,A1449,Fairmead,lm3,Capromeryx,-11.1,26.6,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,153257,McKittrick,rM3,Cervus elaphus ,-11.3,24.8,herbivore,Rancholabrean,35.296704,-119.626683
+UCMP,38743,Irvington,LP2,Equus,-12.27,21.5,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,55320,Irvington,LP2,Equus,-13.52,25.8,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,212864,Fairmead,lP2,Equus,-11.6,27.6,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,212865,Fairmead,lP2,Equus,-11.4,28.2,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A1285,Fairmead,lP2,Equus,-11.3,25.9,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A13554 (mean),Fairmead,lP2,Equus,-8.8,24.4,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A1902a (mean),Fairmead,lP2,Equus,-12.8,27,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A311,Fairmead,lP2,Equus,-12.5,26.8,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A579 (mean),Fairmead,lP2,Equus,-8.5,27.2,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,38744,Irvington,R upper Molariform,Equus,-10.53,26.8,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,55319,Irvington,R upper Molariform,Equus,-12.1,26.5,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,38742,Irvington,RM3,Equus,-12.88,23.4,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,212870,McKittrick,rP2,Equus,-6.8,26.7,herbivore,Rancholabrean,35.296704,-119.626683
+UCMP,212871,McKittrick,rP2,Equus,-7.4,27.4,herbivore,Rancholabrean,35.296704,-119.626683
+UCMP,212873,McKittrick,rP2,Equus,-2.3,23.7,herbivore,Rancholabrean,35.296704,-119.626683
+UCMP,212875,McKittrick,rP2,Equus,-7.6,27.5,herbivore,Rancholabrean,35.296704,-119.626683
+UCMP,212872 (mean),McKittrick,rP2,Equus,-7.7,27,herbivore,Rancholabrean,35.296704,-119.626683
+UCMP,212874 (mean),McKittrick,rP2,Equus,-6.7,27,herbivore,Rancholabrean,35.296704,-119.626683
+UCMP,38511,Irvington,RM1,Hemiauchenia,-13.25,27.3,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,140397,Fairmead,rm1,Hemiauchenia,-13.3,34.4,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,24258,McKittrick,rm3,Hemiauchenia,-4.3,27.6,herbivore,Rancholabrean,35.296704,-119.626683
+MCPC,A1309,Fairmead,,Hemiauchenia,-11.8,31.5,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A391,Fairmead,,Hemiauchenia,-9.3,27.8,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,197566 (mean),Fairmead,C,Homotherium,-13.5,26.8,carnivore,Irvingtonian,37.061488,-120.194108
+UCMP,39228,Irvington,LP4,Homotherium,-15.05,25.3,carnivore,Irvingtonian,37.525236,-121.945545
+UCMP,44928,Irvington,Molariform,Mammut americanum,-9.91,26.3,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,235129,McKittrick,rm2,Mammut americanum,-8.4,27.4,herbivore,Rancholabrean,35.296704,-119.626683
+UCMP,141402,Fairmead,Molar,Mammuthus columbi,-11.1,26.6,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A1197,Fairmead,Molar,Mammuthus columbi,-10.6,22.5,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A1286,Fairmead,Molar,Mammuthus columbi,-9.7,22.4,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A1339,Fairmead,Molar,Mammuthus columbi,-9.3,23.9,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A2247,Fairmead,Molar,Mammuthus columbi,-11.6,24.9,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A267,Fairmead,Molar,Mammuthus columbi,-10.7,25.2,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A320,Fairmead,Molar,Mammuthus columbi,-12.2,28.1,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,153922,Irvington,Molar fragment,Mammuthus columbi,-13.18,25.2,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,32874,Irvington,Molariform,Mammuthus columbi,-11.71,22.9,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,39157,Irvington,Molariform,Mammuthus columbi,-12.88,25.5,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,140618,Fairmead,LP4,Miracinonyx,-11.6,23.8,carnivore,Irvingtonian,37.061488,-120.194108
+MCPC,A2913,Fairmead,lM3,Odocoileus virginianus,-12.46,30.5,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,153241,McKittrick,lc ,Panthera atrox,-10.1,26.3,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,153243,McKittrick,lm1,Panthera atrox,-11.8,25.1,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,153742,McKittrick,lm2,Panthera atrox,-7.8,29.8,carnivore,Rancholabrean,35.296704,-119.626683
+UCMP,71237,Irvington,RP4,Panthera onca,-16.08,18.1,carnivore,Irvingtonian,37.525236,-121.945545
+MCPC,A321,Fairmead,p4,Platygonus vetus,-13.5,29.1,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A2201,Fairmead,C,Smilodon,-11.8,25.6,carnivore,Irvingtonian,37.061488,-120.194108
+MCPC,A1757,Fairmead,I,Smilodon,-11.2,27.9,carnivore,Irvingtonian,37.061488,-120.194108
+MCPC,A2210,Fairmead,lI,Smilodon,-13.4,24.3,carnivore,Irvingtonian,37.061488,-120.194108
+MCPC,A1065,Fairmead,lm1,Tetrameryx irvingtonensis,-11.5,33.3,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,64230,Irvington,LM1 or LM2,Tetrameryx irvingtonensis,-12.76,26.4,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,140410,Fairmead,lm2,Tetrameryx irvingtonensis,-10.8,30.2,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,55351,Irvington,LM3,Tetrameryx irvingtonensis,-11.49,25.8,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,197567 (mean),Fairmead,lM3,Tetrameryx irvingtonensis,-10.5,28.6,herbivore,Irvingtonian,37.061488,-120.194108
+MCPC,A2253,Fairmead,lM3,Tetrameryx irvingtonensis,-11,29.2,herbivore,Irvingtonian,37.061488,-120.194108
+UCMP,223961,Irvington,M1 or M2,Tetrameryx irvingtonensis,-13.24,26.3,herbivore,Irvingtonian,37.525236,-121.945545
+UCMP,55350,Irvington,,Tetrameryx irvingtonensis,-12.04,27,herbivore,Irvingtonian,37.525236,-121.945545

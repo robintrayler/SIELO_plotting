@@ -1,0 +1,13 @@
+name: SIELO_plotting
+title: SIELO_plotting
+username: robintrayler
+account: robintrayler
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13516037
+bundleId: 9474491
+url: https://robintrayler.shinyapps.io/SIELO_plotting/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: data/data.csv|data/meanAnnualPrecipitation.csv|data/pleistocene_california.csv

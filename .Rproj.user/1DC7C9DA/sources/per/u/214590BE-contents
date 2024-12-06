@@ -1,0 +1,9 @@
+style <- bslib::bs_theme(primary   = '#0F2D52',
+                         secondary = '#DAA900',
+                         font_scale = NULL,
+                         bootswatch = "minty",
+                         base_font = "Helvetica",
+                         heading_font = "Helvetica",
+                         `enable-gradients` = TRUE,
+                         `enable-shadows` = TRUE,
+                         spacer = "0.5rem")
