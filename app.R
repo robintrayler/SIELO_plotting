@@ -8,15 +8,16 @@ library(tidyverse)
 library(shinythemes)
 library(shinyWidgets)
 library(bslib)
+library(DT)
 
 ## Set up UI-------------------------------------------------------------------
 ui <- fluidPage(
   ## Set theme-----------------------------------------------------------------
-  # theme = shinythemes::shinytheme("cosmo"), # select a theme
   theme = bslib::bs_theme(primary   = '#0F2D52',
                           secondary = '#DAA900',
                           success = '#6ba43a',
                           danger = '#f18a00',
+                          info = '#99d9d9',
                           font_scale = 1,
                           bootswatch = "minty",
                           base_font = "Helvetica",
@@ -88,8 +89,7 @@ ui <- fluidPage(
                               height = '650px', 
                               width = '100%'),
                  downloadButton(outputId = 'download')), # tab for plot
-        tabPanel('Data', tableOutput('table'))
-        # tabPanel('Messages', textOutput('text'))
+        tabPanel('Data', dataTableOutput('table'))
       )
     )
   )
@@ -98,8 +98,8 @@ ui <- fluidPage(
 ## Set up Server---------------------------------------------------------------
 server <- shinyServer(function(input, output, session) {
   # bs_themer()
-  ## load data ----------------------------------------------------------------
   
+  ## load data ----------------------------------------------------------------
   data <- reactive({
     if(is.null(input$file_data)) {return(NULL)}
     # read the uploaded data
@@ -107,17 +107,17 @@ server <- shinyServer(function(input, output, session) {
     return(data)
   })
   
+  # get a list of column headers for the menues
   options <- reactive({lapply(X = data(), FUN  = class) |> unlist()})
   
-  
+  # parse the headers into diferent classes
   characters <- reactive({names(data())[which(options() == 'character')]})
   numerics   <- reactive({names(data())[which(options() == 'numeric')]})
   factors    <- reactive({names(data())[which(options() == 'factor')]})
   integers   <- reactive({names(options())[which(options() == 'integer')]})
-  # 
+  
   ## Update menu options-------------------------------------------------------
   ## update menu options once data is loaded
-  
   observeEvent(data(),
                updateSelectInput(session,
                                  inputId =  "plot_type",
@@ -128,11 +128,13 @@ server <- shinyServer(function(input, output, session) {
                                              'violin',
                                              'histogram',
                                              'density'),
-                                 selected = 'scatter'))
+                                 selected =  'scatter'))
   observeEvent(data(),
                updateSelectInput(session,
                                  inputId =  "group",
-                                 choices = c('none', characters(), factors())))
+                                 choices = c('none', 
+                                             characters(), 
+                                             factors())))
   
   # update menus ------------------------------------------
   observeEvent(data(), {
@@ -142,17 +144,22 @@ server <- shinyServer(function(input, output, session) {
                     input$plot_type == 'scatter & line') {
                    updateSelectInput(session,
                                      inputId =  "x_val",
-                                     choices = c(numerics(), characters(), integers()))
+                                     choices = c(numerics(), 
+                                                 characters(), 
+                                                 integers()))
                    
                    # update y value choices
                    updateSelectInput(session,
                                      inputId =  "y_val",
-                                     choices = c(numerics(), characters(), integers()))
+                                     choices = c(numerics(), 
+                                                 characters(), 
+                                                 integers()))
                    
                  } else if(input$plot_type == 'histogram' || input$plot_type == 'density') {
                    updateSelectInput(session,
                                      inputId =  "x_val",
-                                     choices = c(numerics(),integers()))
+                                     choices = c(numerics(),
+                                                 integers()))
                    ## update y value menu
                    updateSelectInput(session,
                                      inputId =  "y_val",
@@ -160,11 +167,13 @@ server <- shinyServer(function(input, output, session) {
                  } else if(input$plot_type == 'boxplot' || input$plot_type == 'violin'){
                    updateSelectInput(session,
                                      inputId =  "x_val",
-                                     choices = c(characters(), factors()))
+                                     choices = c(characters(), 
+                                                 factors()))
                    ## update y value menu
                    updateSelectInput(session,
                                      inputId =  "y_val",
-                                     choices = c(numerics(), integers()))
+                                     choices = c(numerics(), 
+                                                 integers()))
                  })
   })
   
@@ -172,22 +181,28 @@ server <- shinyServer(function(input, output, session) {
   observeEvent(data(), {
     updateSelectInput(session,
                       inputId =  "color",
-                      choices = c('none', characters(), factors()))})
+                      choices = c('none', 
+                                  characters(), 
+                                  factors()))})
   
   # update shape menu
   observeEvent(data(), {
     updateSelectInput(session,
                       inputId =  "shape",
-                      choices = c('none', characters(), factors()))})
+                      choices = c('none', 
+                                  characters(), 
+                                  factors()))})
   
   # update facet menu
   observeEvent(data(), {
     updateSelectInput(session,
                       inputId =  "split",
-                      choices = c('none', characters(), factors()))})
+                      choices = c('none', 
+                                  characters(), 
+                                  factors()))})
   
   # ## Plot selected variables---------------------------------------------------
-  
+  # assemble a ggplot argument 
   string <- reactive({ 
     string<- paste0(
       'data () |> ggplot(mapping = aes(', 
@@ -244,31 +259,39 @@ server <- shinyServer(function(input, output, session) {
       if(input$split != 'none') {
         '+ facet_wrap(~ .data[[input$split]])'
       },
+      
       # add theme
-      '+ theme_bw() + theme(legend.position = "top", axis.text = element_text(size = 12), axis.title = element_text(size = 12))'
+      '+ theme_classic() + theme(legend.position = "top", axis.text = element_text(size = 12), axis.title = element_text(size = 12))'
     )
   })
   
+  ## outputs ------------------------------------------------------------------
+  # render the plot
   output$plot <- renderPlotly({
     if(is.null(data())) {return(NULL)}
     p <- parse(text = string()) |> eval() |> ggplotly()
     p})
   
+  # make a plot for the download button
   download_plot <- reactive({
     if(is.null(data())) {return(NULL)}
     p <- parse(text = string()) |> eval()})
   
-  ## Add table to second tab---------------------------------------------------
-  output$table <- renderTable(data())
+  # add a table to the second tab
+  output$table <- renderDataTable(data())
+  
+  # download a pdf of the plot
   output$download <- downloadHandler(filename = 'plot.pdf',
                                      content = function(file) {
-                                       ggsave(file, plot = download_plot(), width = 6,
-                                              height = 6, units = "in", device = "pdf")})
-  
+                                       ggsave(file, plot = download_plot(), 
+                                              width = 6,
+                                              height = 6, 
+                                              units = "in", 
+                                              device = "pdf")})
   
   ##---------------------------------------------------------------------------
-})
-
+}
+)
 shinyApp(ui = ui, server = server)
 
 

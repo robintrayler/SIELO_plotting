@@ -5,7 +5,7 @@ account: robintrayler
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 13516037
-bundleId: 9474491
+bundleId: 9477208
 url: https://robintrayler.shinyapps.io/SIELO_plotting/
 version: 1
 asMultiple: FALSE

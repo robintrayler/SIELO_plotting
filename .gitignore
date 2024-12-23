@@ -2,3 +2,5 @@
 data/.DS_Store
 data/data.csv
 data/meanAnnualPrecipitation.csv
+.Rproj.user
+.DS_Store
